@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,15 +9,13 @@
 </head>
 <body>
     <!-- Barra de navegación usando las clases de Bootstrap -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="index.html">Inicio</a>
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto">
-                <!-- Enlace de navegación a la página de inicio -->
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">Inicio</a>
                 </li>
-                <!-- Enlace de navegación al formulario -->
                 <li class="nav-item">
                     <a class="nav-link" href="formulario.html">Formulario</a>
                 </li>
@@ -56,7 +54,7 @@
         <section id="proyectos">
             <h2>Proyectos</h2>
             <table class="table table-bordered">
-                <thead>
+                <thead class="table-header-bg">
                     <tr>
                         <th>Nombre del proyecto</th>
                         <th>Lenguajes</th>
@@ -82,19 +80,23 @@
                 </tbody>
             </table>
         </section>
-          <!-- Sección "Persona que admiro" -->
+        <!-- Sección "Persona que admiro" -->
         <section id="persona-admiro">
             <h2>Persona que admiro</h2>
-            <img src="cr7.jpeg" alt="Cristiano Ronaldo" class="img-fluid" style="width:300px;">
-            <p><strong>Cristiano Ronaldo</strong> es un futbolista profesional que ha alcanzado la cima del deporte a través de una combinación de trabajo duro y una disciplina ejemplar. Su vida no ha sido fácil; creció en un entorno humilde en Madeira, Portugal, y tuvo que superar muchas dificultades para llegar a ser uno de los mejores jugadores del mundo.</p>
-            <p>Desde joven, Cristiano mostró una determinación increíble para mejorar y superar sus limitaciones. Su disciplina en el entrenamiento y su enfoque en la perfección física y técnica son notables. A lo largo de su carrera, ha trabajado incansablemente para mantener su forma física y mejorar sus habilidades, lo que le ha permitido seguir compitiendo al más alto nivel incluso a sus casi 40 años de edad.</p>
-            <p>Puedes conocer más sobre su vida y su carrera en su <a href="https://es.wikipedia.org/wiki/Cristiano_Ronaldo" target="_blank">biografía en Wikipedia</a>.</p>
+            <div class="text-image">
+                <p><strong>Cristiano Ronaldo</strong> es un futbolista profesional que ha alcanzado la cima del deporte a través de una combinación de trabajo duro y una disciplina ejemplar. Su vida no ha sido fácil; creció en un entorno humilde en Madeira, Portugal, y tuvo que superar muchas dificultades para llegar a ser uno de los mejores jugadores del mundo. <br>
+                Desde joven, Cristiano mostró una determinación increíble para mejorar y superar sus limitaciones. Su disciplina en el entrenamiento y su enfoque en la perfección física y técnica son notables. A lo largo de su carrera, ha trabajado incansablemente para mantener su forma física y mejorar sus habilidades, lo que le ha permitido seguir compitiendo al más alto nivel incluso a sus casi 40 años de edad.
+                Puedes conocer más sobre su vida y su carrera en su <a href="https://es.wikipedia.org/wiki/Cristiano_Ronaldo" target="_blank">biografía en Wikipedia</a>.</p>
+                <img src="cr7.jpeg" alt="Cristiano Ronaldo" class="img-fluid" style="width:300px;">
+            </div>
         </section>
         <!-- Pie de página -->
-        <footer>
+        <footer class="footer text-center py-3">
             <p>Contáctame en <a href="mailto:ramiro.amador6005@alumnos.udg.mx">ramiro.amador6005@alumnos.udg.mx</a></p>
         </footer>
-        <!-- Scripts necesarios para el funcionamiento de Bootstrap -->
+    </div>
+
+    <!-- Scripts necesarios para el funcionamiento de Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
